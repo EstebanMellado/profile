@@ -8,3 +8,4 @@ Made with Vuejs and (L)
 - Animate those icons/images
 - Add links (also as images) to my social networks
 - Add English and Spanish version
+- Add new components for sections
