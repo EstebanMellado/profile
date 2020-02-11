@@ -3,7 +3,7 @@
     <b-alert show>
       <b-icon icon="info-fill" scale="2" variant="info" class="mx-2"></b-icon>
       Site under construction!
-      <b-icon icon="tools"></b-icon>
+      <b-icon icon="tools" scale="1.5" class="mx-2"></b-icon>
     </b-alert>
     <b-img
       :src="require('../assets/steve.png')"
