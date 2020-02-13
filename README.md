@@ -1,11 +1,25 @@
-# profile
-My Web Page Profile
+# Introduction
+Hi! And welcome to my profile repo. I want to share with you my profesional profile website. It's simple but concrete. Just to show the importants things. 
 
-Made with Vuejs and (L)
+This site was made with [Vuejs](https://vuejs.org/) v2 and with :heart:
+
+# Get Started
+To run this site install the [Vue-CLI](https://cli.vuejs.org/)
+```
+npm install -g @vue/cli
+```
+
+Also I used [Bootstrap-Vue](https://bootstrap-vue.js.org/) for my HTML elements
+```
+npm install vue bootstrap-vue bootstrap
+```
+
+Finally run:
+```
+npm run serve
+```
 
 # ToDos
-- Add icons/images of technologies i use
-- Animate those icons/images
-- Add links (also as images) to my social networks
+- Add animation to icons/images
 - Add English and Spanish version
 - Add new components for sections
