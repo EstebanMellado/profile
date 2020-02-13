@@ -7,13 +7,16 @@
     <b-img
       :src="require('../assets/steve.png')"
       fluid
-      alt="Esteban foto perfil"
+      alt="Esteban foto de perfil"
       rounded="circle"
       width="300"
       height="300"
     ></b-img>
     <h1>Hola, soy Esteban</h1>
-    <p>Tarea: escribir un breve descrición de mí.</p>
+    <p>Nacido en el 90 y codeando desde 2017. Siempre trabajé en el mundo IT. Motivado por nuevo desafíos, y siempre con ganas de aprender nuevas tecnologías.</p>
+    <p>Cuando no estoy codeando, estoy haciendo algun deporte o juntándome con amigos o yendo a meetups para hacer networking y conocer a otros desarrolladores.</p>
+    <p>En 2018 me convertí en orador en algunos eventos nacionales e internacionales de tecnología, esto despertó algo nuevo en mí y me dió maravillosas experiencias arriba del escenario compartiendo lo que sé.</p>
+
     <h3>Algunos de mis conocimientos</h3>
     <Skills />
 

@@ -2,8 +2,8 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>Born in the 90's and coding since 2017. Always worked in IT. My motivation are new challenges, always wants to learn new technologies.</p>
-    <p>When I am not coding I'm doing some sports or hanging out with friends or going to events to make  networking and meet other developers and people.</p>
-    <p>In 2018 I became a speaker in some tech events, this turns up something new in me and gave me lovely experience on a stage sharing my knowledge.</p>
+    <p>When I am not coding I'm doing some sports or hanging out with friends or going to meetups to make  networking and meet other developers.</p>
+    <p>In 2018 I became a speaker in some national and international tech events, this turns up something new in me and gave me lovely experiences on a stage sharing my knowledge.</p>
 
     <h3>Some of my skills</h3>
     <Skills />
