@@ -1,8 +1,12 @@
 <template>
   <div>
-      <ul>
+    <ul>
       <li>
-        <a href="https://ar.linkedin.com/in/estebanmellado" target="_blank" rel="noopener">
+        <a
+          href="https://ar.linkedin.com/in/estebanmellado"
+          target="_blank"
+          rel="noopener"
+        >
           <b-img
             :src="require('../assets/linkedinLogo.png')"
             fluid
@@ -13,7 +17,11 @@
         </a>
       </li>
       <li>
-        <a href="https://twitter.com/m_esteban90" target="_blank" rel="noopener">
+        <a
+          href="https://twitter.com/m_esteban90"
+          target="_blank"
+          rel="noopener"
+        >
           <b-img
             :src="require('../assets/twitterLogo.png')"
             fluid
@@ -24,7 +32,11 @@
         </a>
       </li>
       <li>
-        <a href="https://github.com/EstebanMellado" target="_blank" rel="noopener">
+        <a
+          href="https://github.com/EstebanMellado"
+          target="_blank"
+          rel="noopener"
+        >
           <b-img
             :src="require('../assets/githubLogo.png')"
             fluid

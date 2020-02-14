@@ -57,7 +57,11 @@
         </a>
       </li>
       <li>
-        <a href="https://en.wikipedia.org/wiki/SQL" target="_blank" rel="noopener">
+        <a
+          href="https://en.wikipedia.org/wiki/SQL"
+          target="_blank"
+          rel="noopener"
+        >
           <b-img
             :src="require('../assets/sqlLogo.png')"
             fluid
@@ -79,7 +83,11 @@
         </a>
       </li>
       <li>
-        <a href="https://azure.microsoft.com/es-es/" target="_blank" rel="noopener">
+        <a
+          href="https://azure.microsoft.com/es-es/"
+          target="_blank"
+          rel="noopener"
+        >
           <b-img
             :src="require('../assets/azureLogo.png')"
             fluid

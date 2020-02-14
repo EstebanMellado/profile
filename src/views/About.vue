@@ -1,7 +1,8 @@
 <template>
   <div class="home-es">
     <b-alert show>
-      <b-icon icon="info-fill" scale="2" variant="info" class="mx-2"></b-icon>Sitio en construcción!
+      <b-icon icon="info-fill" scale="2" variant="info" class="mx-2"></b-icon
+      >Sitio en construcción!
       <b-icon icon="tools" scale="1.5" class="mx-2"></b-icon>
     </b-alert>
     <b-img
@@ -16,13 +17,26 @@
     <div class="container">
       <div class="row">
         <div class="column">
-          <p>Nacido en el 90 y codeando desde 2017. Siempre trabajé en el mundo IT. Motivado por nuevos desafíos, y siempre con ganas de aprender nuevas tecnologías.</p>
+          <p>
+            Nacido en el 90 y codeando desde 2017. Siempre trabajé en el mundo
+            IT. Motivado por nuevos desafíos, y siempre con ganas de aprender
+            nuevas tecnologías.
+          </p>
         </div>
         <div class="column">
-          <p>Cuando no estoy codeando, estoy haciendo algún deporte o juntándome con amigos o yendo a meetups para hacer networking y conocer a otros desarrolladores.</p>
+          <p>
+            Cuando no estoy codeando, estoy haciendo algún deporte o juntándome
+            con amigos o yendo a meetups para hacer networking y conocer a otros
+            desarrolladores.
+          </p>
         </div>
         <div class="column">
-          <p>En 2019 me convertí en orador en algunos eventos nacionales e internacionales de tecnología, esto despertó algo nuevo en mí y me dió maravillosas experiencias arriba del escenario compartiendo lo que sé.</p>
+          <p>
+            En 2019 me convertí en orador en algunos eventos nacionales e
+            internacionales de tecnología, esto despertó algo nuevo en mí y me
+            dió maravillosas experiencias arriba del escenario compartiendo lo
+            que sé.
+          </p>
         </div>
       </div>
     </div>
@@ -52,6 +66,7 @@ export default {
 h3 {
   margin: 40px 0 0;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -76,4 +91,3 @@ h3 {
   }
 }
 </style>
-  
