@@ -1,12 +1,25 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">English Version</router-link> |
-      <router-link to="/es">Versión Castellano</router-link>
+      <router-link to="/">English</router-link> | 
+      <router-link to="/es">Español</router-link>
     </div>
     <router-view />
+    <br>
+    <Footer />
   </div>
 </template>
+
+<script>
+import Footer from "@/components/Footer.vue";
+
+export default {
+  name: "App",
+  components: {
+    Footer
+  }
+};
+</script>
 
 <style>
 #app {
