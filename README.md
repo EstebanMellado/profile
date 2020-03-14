@@ -27,3 +27,5 @@ npm run serve
 - ~~Add animation to icons/images~~
 - ~~Add English and Spanish version~~
 - Add new components for sections
+- Add animation when change version page
+- Add fixed header on scroll for mobile
