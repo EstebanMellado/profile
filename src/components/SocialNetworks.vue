@@ -66,4 +66,10 @@ li {
   display: inline-block;
   margin: 0 10px;
 }
+li:hover {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+  transform: scale(1.1);
+}
 </style>
