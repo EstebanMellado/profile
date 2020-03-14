@@ -4,7 +4,11 @@ Hi! And welcome to my profile repo. I want to share with you my profesional prof
 This site was made with [Vuejs](https://vuejs.org/) v2 and with :heart:
 
 # Get Started
-To run this site install the [Vue-CLI](https://cli.vuejs.org/)
+First the basics
+```
+npm install
+```
+Also, to run this site, install the [Vue-CLI](https://cli.vuejs.org/)
 ```
 npm install -g @vue/cli
 ```
@@ -20,6 +24,6 @@ npm run serve
 ```
 
 # ToDos
-- Add animation to icons/images
-- Add English and Spanish version
+- ~~Add animation to icons/images~~
+- ~~Add English and Spanish version~~
 - Add new components for sections
