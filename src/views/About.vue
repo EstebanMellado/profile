@@ -39,7 +39,7 @@
     <h3>Algunos de mis conocimientos</h3>
     <Skills />
 
-    <h3>Links Recomendados</h3>
+    <h3>Contactame</h3>
     <SocialNetworks />
   </div>
 </template>

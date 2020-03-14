@@ -25,7 +25,7 @@
     <h3>Some of my skills</h3>
     <Skills />
 
-    <h3>Essential Links</h3>
+    <h3>Keep in touch</h3>
     <SocialNetworks />
   </div>
 </template>
