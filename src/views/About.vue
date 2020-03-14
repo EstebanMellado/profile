@@ -1,10 +1,5 @@
 <template>
   <div class="home-es">
-    <b-alert show>
-      <b-icon icon="info-fill" scale="2" variant="info" class="mx-2"></b-icon
-      >Sitio en construcción!
-      <b-icon icon="tools" scale="1.5" class="mx-2"></b-icon>
-    </b-alert>
     <b-img
       :src="require('../assets/steve.png')"
       fluid
