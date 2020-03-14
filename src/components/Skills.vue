@@ -57,11 +57,7 @@
         </a>
       </li>
       <li>
-        <a
-          href="https://en.wikipedia.org/wiki/SQL"
-          target="_blank"
-          rel="noopener"
-        >
+        <a href="https://en.wikipedia.org/wiki/SQL" target="_blank" rel="noopener">
           <b-img
             :src="require('../assets/sqlLogo.png')"
             fluid
@@ -83,11 +79,7 @@
         </a>
       </li>
       <li>
-        <a
-          href="https://azure.microsoft.com/es-es/"
-          target="_blank"
-          rel="noopener"
-        >
+        <a href="https://azure.microsoft.com/es-es/" target="_blank" rel="noopener">
           <b-img
             :src="require('../assets/azureLogo.png')"
             fluid
@@ -127,5 +119,11 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
+}
+li:hover {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+  transform: scale(1.1);
 }
 </style>
