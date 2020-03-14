@@ -1,48 +1,32 @@
 <template>
-  <div class="hello">
+  <div class="container">
     <h1>{{ msg }}</h1>
-    <p>
-      Born in the 90's and coding since 2017. Always worked in IT. My motivation
-      are new challenges, always wants to learn new technologies.
-    </p>
-    <p>
-      When I am not coding I'm doing some sports or hanging out with friends or
-      going to meetups to make networking and meet other developers.
-    </p>
-    <p>
-      In 2018 I became a speaker in some national and international tech events,
-      this turns up something new in me and gave me lovely experiences on a
-      stage sharing my knowledge.
-    </p>
-
+    <div class="row">
+      <div class="column">
+        <p>
+          Born in the 90's and coding since 2017. Always worked in IT. My motivation
+          are new challenges, always wants to learn new technologies.
+        </p>
+      </div>
+      <div class="column">
+        <p>
+          When I am not coding I'm doing some sports or hanging out with friends or
+          going to meetups to make networking and meet other developers.
+        </p>
+      </div>
+      <div class="column">
+        <p>
+          In 2018 I became a speaker in some national and international tech events,
+          this turns up something new in me and gave me lovely experiences on a
+          stage sharing my knowledge.
+        </p>
+      </div>
+    </div>
     <h3>Some of my skills</h3>
     <Skills />
 
     <h3>Essential Links</h3>
     <SocialNetworks />
-
-    <!-- <h3>Ecosystem</h3>
-    <ul>
-      <li>
-        <a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a>
-      </li>
-      <li>
-        <a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a>
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-devtools#vue-devtools"
-          target="_blank"
-          rel="noopener"
-        >vue-devtools</a>
-      </li>
-      <li>
-        <a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a>
-      </li>
-      <li>
-        <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a>
-      </li>
-    </ul>-->
   </div>
 </template>
 
@@ -66,5 +50,29 @@ export default {
 <style scoped>
 h3 {
   margin: 40px 0 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
 </style>
