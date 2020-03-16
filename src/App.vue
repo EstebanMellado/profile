@@ -1,22 +1,25 @@
 <template>
   <div id="app">
+    <Navbar />
     <div id="nav">
-      <router-link to="/">English</router-link> | 
+      <router-link to="/">English</router-link>|
       <router-link to="/es">Español</router-link>
     </div>
     <router-view />
-    <br>
+    <br />
     <Footer />
   </div>
 </template>
 
 <script>
 import Footer from "@/components/Footer.vue";
+import Navbar from "@/components/Navbar.vue";
 
 export default {
   name: "App",
   components: {
-    Footer
+    Footer,
+    Navbar
   }
 };
 </script>
@@ -41,5 +44,12 @@ export default {
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+  #nav {
+    display: none;
+  }
 }
 </style>
