@@ -2,7 +2,8 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">English</router-link> | 
-      <router-link to="/es">Español</router-link>
+      <router-link to="/es">Español</router-link> | 
+      <a href="https://blog.estebanmellado.com/" target="_blank">Blog</a> <b-badge pill variant="warning">¡New!</b-badge>
     </div>
     <router-view />
     <br>
