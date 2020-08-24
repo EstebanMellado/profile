@@ -10,7 +10,7 @@
       </div>
       <div class="column">
         <p>
-          When I am not coding I'm doing some sports or hanging out with friends or
+          When I am not coding I'm doing some sports, hanging out with friends and
           going to meetups to make networking and meet other developers.
         </p>
       </div>
