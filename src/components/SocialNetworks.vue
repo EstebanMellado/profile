@@ -46,6 +46,21 @@
           ></b-img>
         </a>
       </li>
+      <li>
+        <a
+          href="https://blog.estebanmellado.com"
+          target="_blank"
+          rel="noopener"
+        >
+          <b-img
+            :src="require('../assets/bloggerLogo.webp')"
+            fluid
+            alt="Blogger Logo"
+            width="70"
+            height="70"
+          ></b-img>
+        </a>
+      </li>
     </ul>
   </div>
 </template>

@@ -20,8 +20,8 @@
         </div>
         <div class="column">
           <p>
-            Cuando no estoy codeando, estoy haciendo algún deporte o juntándome
-            con amigos o yendo a meetups para hacer networking y conocer a otros
+            Cuando no estoy codeando, estoy haciendo algún deporte, juntándome
+            con amigos y yendo a meetups para hacer networking y conocer a otros
             desarrolladores.
           </p>
         </div>
