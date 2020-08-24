@@ -53,7 +53,7 @@
           rel="noopener"
         >
           <b-img
-            :src="require('../assets/bloggerLogo.webp')"
+            :src="require('../assets/bloggerLogo.png')"
             fluid
             alt="Blogger Logo"
             width="70"
